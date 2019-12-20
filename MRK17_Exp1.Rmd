@@ -31,7 +31,7 @@ The data (variables and observations) used by Masson et al. (2017) are available
 |Subj     | Subject identifier |
 |Item     | Target (non-)word  |    
 |trial    | Trial number |
-|Qlty     | Target quality is _clear_ or _dim_  |
+|Qlty     | Target quality is _clear_ or _degraded_  |
 |Frq      | Target frequency is _high_  or _low_ |
 |TPR      | Target is _related_ or _unrelated_ to prime |
 |lagQlty  | Lag target quality is _clear_ or _dim_  |
@@ -44,7 +44,7 @@ We rename the five two-levels factors as follows:
 
 |Factor|Variable| Description
 |------|-----------|
-|Q     |Qlty    | Target quality is _clear_ or _dim_   |
+|Q     |Qlty    | Target quality is _clear_ or _degraded_   |
 |F     |Frq     | Target frequency is _high_  or _low_ |
 |P     |TPR     | Target is _related_ or _unrelated_ to prime |
 |L     |lagQlty | Lag target quality is _clear_ or _dim_  |
